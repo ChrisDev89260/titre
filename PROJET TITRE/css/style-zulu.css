@@ -1,0 +1,57 @@
+/* Global styles */
+@font-face {
+    font-family: 'Futura PT';
+    src: url(../fonts/Futura-PT/FuturaPTLight.otf);
+  }
+  
+  body {
+      /* background-color: #F2F2F2; */
+      background-color: rgb(229, 224, 219);
+      /* font-family: Arial, sans-serif; */
+      font-family: 'Futura PT', sans-serif;
+      color: #333;
+      font-weight:500;
+      font-size: large;
+      margin: 0;
+      padding: 0;
+      
+    }
+    #wrapper {
+        min-height: 100vh;
+    }
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+/* Footer styles */
+footer {
+    background-color:rgb( 68, 69, 70);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 10px;
+    
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  

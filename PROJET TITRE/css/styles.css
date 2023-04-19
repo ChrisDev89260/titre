@@ -1,0 +1,157 @@
+/* Global styles */
+@font-face {
+  font-family: 'Futura PT';
+  src: url(./fonts/Futura-PT/FuturaPTLight.otf);
+}
+
+body {
+    /* background-color: #F2F2F2; */
+    background-color: rgb(229, 224, 219);
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Futura PT', sans-serif;
+    color: #333;
+    font-weight:500;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  /* Header styles */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  /* Banner styles */
+  .banner {
+    height: 700px;
+    width: auto;
+  }
+  .banner-img{
+    background-image: url("vignes1.JPG");
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .banner h1 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color:rgb( 68, 69, 70);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    position: bottom;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .calendar{
+    width:  70% ;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .active{
+    font-weight: bold;
+  }
+  .presentation {
+    border-radius: 15px;
+    background-color: #FFF;
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* background-image: url("https://media.licdn.com/dms/image/C4D03AQFCnlNeNboMgw/profile-displayphoto-shrink_800_800/0/1516874717439?e=2147483647&v=beta&t=5rEorN3Y13XM8b0m1B830Gtayau5xuOvSQaaPv9e9d8"); */
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .presentation p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+  }
+  
+  .contact{
+    /* margin-left:46px ;  */
+    font-weight: bold;
+    
+  }
+  .coordonnées{
+    margin-top:40px;
+    margin-left: 46px ;
+  }
+  .coordonnées img{
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+  }
+  .logo{
+    max-width: 300px;
+  }
+  .logo img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .producer-photo{
+    /* width: 450px; */
+    float: left;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+    /* border: 2px solid black; */
+  }
+  .presentation .producer-photo .bbarwise{
+    /* border-radius: 10px; */
+    padding: 20px;
+    margin:0 auto;
+    /* padding-left: 20px; */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+    /* border: 2px solid black; */
+    
+  }
