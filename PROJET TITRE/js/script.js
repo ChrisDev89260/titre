@@ -11,6 +11,8 @@ function countVisitor() {
   const visitorCount = document.querySelector('#visitor-count');
   visitorCount.innerHTML = `You are the ${countVisitor()} visitor this month!`;
 
+  /********************************************************************************************** */
+
 
 
 
